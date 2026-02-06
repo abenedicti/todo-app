@@ -1,0 +1,90 @@
+h1 {
+  color: black;
+  font-size: 2.2rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-shadow: 75px -15px 5px black;
+}
+h2 {
+  font-size: 1.3rem;
+  margin: 5px;
+  color: #101318;
+  display: inline-block;
+  margin-right: 230px;
+}
+h3 {
+  font-size: 1.3rem;
+  margin: 5px;
+  color: #101318;
+  display: inline-block;
+  margin-right: 215px;
+}
+h4 {
+  margin: 5px;
+}
+.container {
+  position: relative;
+  width: 600px;
+  height: 800px;
+  background: whitesmoke;
+  border: black solid 1px;
+  box-shadow: -15px 15px 15px black;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -160px;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 50%;
+  background-image: url('../assets/stylo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+}
+
+.bloc {
+  grid-column: 1 / -1;
+  width: 570px;
+  height: 200px;
+  background-color: #c8c4d6;
+  border: whitesmoke solid 1px;
+  border-radius: 10px;
+  border: black solid 1px;
+  box-shadow: 5px 5px 35px black;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.mini-bloc {
+  width: 270px;
+  height: 200px;
+  background-color: #c8c4d6;
+  border: whitesmoke solid 1px;
+  border-radius: 10px;
+  border: black solid 1px;
+  box-shadow: 5px 5px 35px black;
+}
+button {
+  border-radius: 100px;
+  border: 1px;
+}
+input[type='checkbox'] {
+  border-radius: 6px;
+  accent-color: #434e78;
+}
+.delete-btn {
+  background: none;
+  font-size: 1.1rem;
+  color: #a2516c;
+}
+.added-task {
+  display: flex;
+  flex-direction: row;
+}

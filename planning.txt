@@ -1,0 +1,31 @@
+ 
+PLANNING
+
+Mercredi
+- CSS global (background, margin, padding, font-style/font-size pour titres et paragraphes)
+- Navbar jsx + css module
+- Footer jsx + css module
+- Main sections + css module
+
+Jeudi 
+Liste
+- Créer component ex : TodoItem qui prend des props (title, completed).
+- Créer un component ex : TodoList qui contient plusieurs TodoItem.
+(static pour commencer)
+
+Vendredi
+Ajouter  et supprimer des tâches (push et pop)
+- Crée formulaire (input pour que l'utilisateur puisse écrire)
+- Button ajoiter/supprimer (méthode filter?)
+
+Lundi
+Cocher tâche terminée
+- Bouton checkbox
+- Mettre à jour si fait ou non (boolean)
+- Changer style quand tâche terminée
+- surlignage et couleurs
+
+Mardi
+Dernière fonctionnalités
+- Sidebar si nécessaire
+- Ajouter option pour changer de couleur
