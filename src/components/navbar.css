@@ -1,0 +1,11 @@
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #615e5e;
+}
+img {
+  margin: 5px;
+  width: 50px;
+  height: auto;
+  border-radius: 50px;
+}

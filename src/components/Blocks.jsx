@@ -9,6 +9,7 @@ function Blocks({
   addTask,
   toggleCheckbox,
   deleteTask,
+  editTask,
 }) {
   const [inputValue, setInputValue] = useState('');
 
@@ -46,6 +47,7 @@ function Blocks({
               task={task}
               toggleCheckbox={toggleCheckbox}
               deleteTask={deleteTask}
+              editTask={editTask}
             />
           ))}
       </div>

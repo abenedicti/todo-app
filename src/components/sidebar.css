@@ -1,0 +1,19 @@
+.sidebar {
+  width: 250px;
+  height: 920px;
+  background-color: #101318;
+  box-shadow: -55px 15px 15px black;
+  border-right: #101318 1px solid;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sidebar p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: whitesmoke;
+}

@@ -1,7 +1,7 @@
 import Blocks from './Blocks';
 import './List.css';
 
-function List({ tasks, addTask, toggleCheckbox, deleteTask }) {
+function List({ tasks, addTask, toggleCheckbox, deleteTask, editTask }) {
   return (
     <div className="container">
       <Blocks
@@ -11,6 +11,7 @@ function List({ tasks, addTask, toggleCheckbox, deleteTask }) {
         addTask={addTask}
         toggleCheckbox={toggleCheckbox}
         deleteTask={deleteTask}
+        editTask={editTask}
       />
       <Blocks
         category="Important"
@@ -19,6 +20,7 @@ function List({ tasks, addTask, toggleCheckbox, deleteTask }) {
         addTask={addTask}
         toggleCheckbox={toggleCheckbox}
         deleteTask={deleteTask}
+        editTask={editTask}
       />
       <Blocks
         category="Extra"
@@ -27,6 +29,7 @@ function List({ tasks, addTask, toggleCheckbox, deleteTask }) {
         addTask={addTask}
         toggleCheckbox={toggleCheckbox}
         deleteTask={deleteTask}
+        editTask={editTask}
       />
       <Blocks
         category="Perso"
@@ -35,6 +38,7 @@ function List({ tasks, addTask, toggleCheckbox, deleteTask }) {
         addTask={addTask}
         toggleCheckbox={toggleCheckbox}
         deleteTask={deleteTask}
+        editTask={editTask}
       />
     </div>
   );

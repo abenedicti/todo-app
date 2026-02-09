@@ -1,6 +1,6 @@
 .big-block {
   grid-column: 1 / -1;
-  width: 570px;
+  width: 500px;
   height: 200px;
   background-color: #c8c4d6;
   border: whitesmoke solid 1px;
@@ -17,7 +17,7 @@
   color: #101318;
 }
 .mini-block {
-  width: 270px;
+  width: 225px;
   height: 200px;
   background-color: #c8c4d6;
   border: whitesmoke solid 1px;
@@ -43,4 +43,11 @@ input[type='text']:focus {
   border: 2px solid #434e78;
   outline: none;
   background: #6e6b6b;
+}
+input[type='text'].edit-input {
+  background-color: #c8c4d6;
+  border: none;
+  border-bottom: #a2516c dashed 1px;
+  border-radius: 0;
+  color: #434e78;
 }

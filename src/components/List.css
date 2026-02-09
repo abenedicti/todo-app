@@ -11,8 +11,8 @@ h4 {
 }
 .container {
   position: relative;
-  width: 600px;
-  height: 800px;
+  width: 550px;
+  height: 700px;
   background: whitesmoke;
   border: black solid 1px;
   box-shadow: -15px 15px 15px black;
@@ -20,6 +20,7 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
+  margin-bottom: 20px;
 }
 .container::after {
   content: '';
@@ -43,20 +44,29 @@ h4 {
   padding: 3px 10px;
   transition: padding 0.2s ease-in-out;
 }
-.add-btn:hover {
+/* .add-btn:hover {
   cursor: pointer;
   background-color: #434e78;
   transform: scale(1.1);
-}
+} */
 input[type='checkbox'] {
   border-radius: 6px;
   accent-color: #434e78;
+  cursor: pointer;
 }
 .delete-btn {
   background: none;
   font-size: 1.1rem;
   color: #a2516c;
   border: none;
+  cursor: pointer;
+}
+.edit-btn {
+  background: none;
+  font-size: 1.1rem;
+  color: #a2516c;
+  border: none;
+  cursor: pointer;
 }
 .added-task {
   display: flex;
@@ -67,7 +77,8 @@ p {
 }
 .tasks p {
   display: flex;
-
+  color: #434e78;
+  font-size: 1rem;
   align-items: center;
   margin: 5px 0;
   word-break: break-word;
