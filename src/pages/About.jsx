@@ -1,15 +1,50 @@
+import '../pages/about.css';
+import maylisImg from '../assets/Maylis.png';
+import annaImg from '../assets/Anna.png';
+import githubImg from '../assets/githubIcon.png';
+import linkedinImg from '../assets/linkedinIcon.png';
 function About() {
   return (
-    <div className="team">
-      <div className="student1">
-        <img src="" alt="" />
-        <p>NOM PRENOM</p>
-        {/* LINK */}
-      </div>
-      <div className="student2">
-        <img src="" alt="" />
-        <p>NOM PRENOM</p>
-        {/* LINK */}
+    <div className="about-page">
+      <h2>About</h2>
+      <div className="students">
+        <div className="student1">
+          <img src={maylisImg} alt="student1" />
+          <p>MAYLIS IMPERIALI</p>
+          <div className="github-info ">
+            <img src={githubImg} alt="github logo" />
+            <a
+              href="https://github.com/maylis-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </div>
+          <div className="linkedin-info">
+            <img src={linkedinImg} alt="linkedin logo" />
+            <a
+              href="https://www.linkedin.com/in/maylis-imperiali-946a131b7"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <div className="student2">
+          <img src={annaImg} alt="student2" />
+          <p>ANNABELLE BENEDICTI</p>
+          <div className="github-info">
+            <img src={githubImg} alt="github logo" />
+            <a href="https://github.com/abenedicti" target="_blank">
+              Github
+            </a>
+          </div>
+          <div className="linkedin-info">
+            <img src={linkedinImg} alt="linkedin logo" />
+            <p>LinkedIn</p>
+          </div>
+        </div>
       </div>
     </div>
   );

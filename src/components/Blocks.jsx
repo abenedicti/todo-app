@@ -27,17 +27,24 @@ function Blocks({
   return (
     <div className={blockClass}>
       <h2 className={titleClass}>{category}</h2>
+      {/* form onSubmit = native HTML for keypress 'enter'   */}
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleAdd();
+        }}
+      >
+        <input
+          type="text"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          placeholder={placeholder}
+        />
 
-      <input
-        type="text"
-        value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
-        placeholder={placeholder}
-      />
-
-      <button className="add-btn" onClick={handleAdd}>
-        Add
-      </button>
+        <button className="add-btn" onClick={handleAdd}>
+          Add
+        </button>
+      </form>
       <div className="tasks">
         {tasks
           .filter((task) => task.category === category)

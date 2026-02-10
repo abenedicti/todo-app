@@ -44,11 +44,11 @@ h4 {
   padding: 3px 10px;
   transition: padding 0.2s ease-in-out;
 }
-/* .add-btn:hover {
+.add-btn:hover {
   cursor: pointer;
   background-color: #434e78;
   transform: scale(1.1);
-} */
+}
 input[type='checkbox'] {
   border-radius: 6px;
   accent-color: #434e78;
@@ -71,26 +71,4 @@ input[type='checkbox'] {
 .added-task {
   display: flex;
   flex-direction: row;
-}
-p {
-  text-align: left;
-}
-.tasks p {
-  display: flex;
-  color: #434e78;
-  font-size: 1rem;
-  align-items: center;
-  margin: 5px 0;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-}
-.tasks {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  width: 100%;
-  box-sizing: border-box;
 }

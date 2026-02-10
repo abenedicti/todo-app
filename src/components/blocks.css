@@ -38,6 +38,7 @@ input[type='text'] {
   padding: 3px;
   border-radius: 5px;
   border: 2px solid #3b3b3b;
+  user-select: none;
 }
 input[type='text']:focus {
   border: 2px solid #434e78;

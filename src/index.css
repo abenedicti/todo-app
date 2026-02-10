@@ -3,7 +3,9 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: url(./assets/backgroundtoto.png) center/cover;
@@ -20,8 +22,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+
   font-family: 'Delius', sans-serif;
 }
 .main-content {
@@ -30,4 +31,10 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  flex: 1;
+}
+/* remove blue default highlight (inherit) or poss to change the color  */
+input::selection {
+  background: transparent;
+  color: #434e78;
 }
