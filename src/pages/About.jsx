@@ -43,6 +43,7 @@ function About() {
           </div>
           <div className="linkedin-info">
             <img src={linkedinImg} alt="linkedin logo" />
+            {/* no link added in purpose */}
             <p>LinkedIn</p>
           </div>
         </div>
