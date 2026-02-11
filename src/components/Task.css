@@ -4,8 +4,8 @@
   font-size: 1rem;
   align-items: center;
   margin: 5px 0;
-  word-break: break-word;
-  overflow-wrap: break-word;
+  /* word-break: break-word;
+  overflow-wrap: break-word; */
   max-width: 100%;
   box-sizing: border-box;
   flex-wrap: wrap;

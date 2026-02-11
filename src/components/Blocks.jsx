@@ -18,7 +18,6 @@ function Blocks({
     setInputValue('');
   };
 
-  // Condition ternaire pour la classe container
   const blockClass =
     category === 'Extra' || category === 'Perso' ? 'mini-block' : 'big-block';
   const titleClass =

@@ -1,10 +1,12 @@
 import { useState } from 'react';
-import todoData from '/todo.json';
+import todoData from './data/todo.json';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import About from './pages/About';
 import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -72,6 +74,7 @@ function App() {
         />
         <Route path="/about" element={<About />} />
         <Route path="/footer" element={<Footer />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

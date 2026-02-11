@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "text": "Learn React",
+    "category": "Urgent",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "text": "Create a todo app",
+    "category": "Urgent",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "text": "Be nice",
+    "category": "Important",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "text": "Extra labs week 4",
+    "category": "Extra",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "text": "Eat potatoes",
+    "category": "Perso",
+    "completed": false
+  }
+]

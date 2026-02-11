@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  margin-top: 10px;
 }
 .about-page img {
   width: 200px;
@@ -23,6 +24,7 @@
 .about-page p {
   color: black;
   text-align: center;
+  /* font-size: 1.1rem; */
 }
 .github-info {
   display: flex;

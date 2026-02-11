@@ -6,18 +6,19 @@ import linkedinImg from '../assets/linkedinIcon.png';
 function About() {
   return (
     <div className="about-page">
-      <h2>About</h2>
+      <h2>About the team member</h2>
+      <p>
+        Welcome to our Todo app, built to make your life easier and help you
+        stay organized. Add, edit, delete, and mark your daily tasks as
+        completed!
+      </p>
       <div className="students">
         <div className="student1">
           <img src={maylisImg} alt="student1" />
           <p>MAYLIS IMPERIALI</p>
           <div className="github-info ">
             <img src={githubImg} alt="github logo" />
-            <a
-              href="https://github.com/maylis-dev"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://github.com/maylis-dev" target="_blank">
               Github
             </a>
           </div>

@@ -3,12 +3,12 @@
   height: 55px;
   background-color: #101318;
 }
-.footer img {
+img {
   width: 30px;
+  border-radius: 50px;
 }
 .footer a {
   color: whitesmoke;
-  padding-bottom: 10px;
 }
 p {
   display: flex;

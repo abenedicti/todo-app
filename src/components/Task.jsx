@@ -6,15 +6,15 @@ function Task({ task, toggleCheckbox, deleteTask, editTask }) {
 
   const handleEdit = () => {
     if (isEditing) {
-      // On sauvegarde le texte
+      // to save the text
       editTask(task.id, editText);
     }
-    // On bascule le mode édition dans tous les cas
+    // editing
     setIsEditing(!isEditing);
   };
   const handleSubmit = (e) => {
-    e.preventDefault(); // empêche le rechargement de page
-    handleEdit(); // sauvegarde et bascule l'édition
+    e.preventDefault(); // avoid reloading
+    handleEdit(); // save and edit
   };
   return (
     <div key={task.id} className="task">
